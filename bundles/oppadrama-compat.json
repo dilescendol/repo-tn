@@ -1,0 +1,23 @@
+{
+  "id": "oppadrama-compat",
+  "name": "Oppadrama",
+  "version": "1.0.0",
+  "description": "Official TetoNova drama lane for Oppadrama, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+  "contentTypes": ["MOVIE", "SERIES"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/oppadrama/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "drama-compat-v1",
+  "riskFlags": ["ip-domain-shift", "mirror-rotation", "mixed-catalog"],
+  "upstreamUrl": "http://45.11.57.129",
+  "sourceTransparency": {
+    "id": "oppadrama-compat",
+    "displayName": "Oppadrama",
+    "badges": ["NEW", "UNSTABLE"],
+    "healthScore": 74,
+    "responseTimeMs": 760,
+    "successRatePercent": 82,
+    "note": "Official TetoNova drama lane for Oppadrama with live-first parsing and a conservative fallback shelf."
+  }
+}

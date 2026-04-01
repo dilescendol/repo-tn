@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "velvet-orbit",
+      "title": "Velvet Orbit",
+      "tagline": "Movie fallback tile for the official PencuriMovie lane",
+      "overview": "A synthetic sci-fi thriller seeded into TetoNova so the PencuriMovie lane stays browseable while mirrors rotate and live playback hydrates real entries.",
+      "contentType": "MOVIE",
+      "yearLabel": "2026",
+      "genres": ["Movie", "Sci-Fi", "Thriller"],
+      "releaseHint": "Movie page ready",
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback shelf for the official PencuriMovie lane. Live parsing will replace these items when the source is reachable."
+    },
+    {
+      "id": "paper-harbor-files",
+      "title": "Paper Harbor Files",
+      "tagline": "Series fallback tile for the movie-heavy compat wave",
+      "overview": "A synthetic mystery series used by TetoNova to keep continue-watching and episode flows stable while the PencuriMovie lane hydrates live series pages.",
+      "contentType": "SERIES",
+      "yearLabel": "2025",
+      "genres": ["Series", "Mystery", "Drama"],
+      "releaseHint": "New episode Friday 22:00",
+      "episodeCount": 8,
+      "durationMinutes": 48,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID"]
+    },
+    {
+      "id": "chrome-kite-rangers",
+      "title": "Chrome Kite Rangers",
+      "tagline": "Animated fallback tile for PencuriMovie's mixed shelf",
+      "overview": "A synthetic action-animation title used as a safe browse tile while TetoNova validates mixed catalog coverage from PencuriMovie.",
+      "contentType": "ANIME",
+      "yearLabel": "2024",
+      "genres": ["Anime", "Action", "Adventure"],
+      "releaseHint": "Next episode Tuesday 20:30",
+      "episodeCount": 12,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID", "EN"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "PencuriMovie Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the PencuriMovie compat lane.",
+      "itemIds": ["velvet-orbit", "paper-harbor-files", "chrome-kite-rangers"]
+    },
+    {
+      "title": "Movie Shelf",
+      "subtitle": "Starter movie tiles while live mirrors rotate.",
+      "itemIds": ["velvet-orbit"]
+    },
+    {
+      "title": "Series and Animation",
+      "subtitle": "Fallback episodic tiles for mixed-catalog coverage.",
+      "itemIds": ["paper-harbor-files", "chrome-kite-rangers"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Paper Harbor Files",
+      "releaseDayLabel": "Friday",
+      "releaseTimeLabel": "22:00",
+      "contentType": "SERIES"
+    },
+    {
+      "title": "Chrome Kite Rangers",
+      "releaseDayLabel": "Tuesday",
+      "releaseTimeLabel": "20:30",
+      "contentType": "ANIME"
+    }
+  ]
+}

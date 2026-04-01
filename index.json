@@ -218,6 +218,54 @@
         "successRatePercent": 87,
         "note": "Official TetoNova mixed lane for Winbu with live-first parsing and conservative fallback support."
       }
+    },
+    {
+      "id": "pencurimovie-compat",
+      "name": "PencuriMovie",
+      "version": "1.0.0",
+      "description": "Official TetoNova movie-heavy lane for PencuriMovie, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+      "contentTypes": ["MOVIE", "SERIES", "ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/pencurimovie/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/pencurimovie-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "movie-compat-v1",
+      "riskFlags": ["mirror-rotation", "captcha-gate", "embed-variation"],
+      "upstreamUrl": "https://ww99.pencurimovie.bond",
+      "sourceTransparency": {
+        "id": "pencurimovie-compat",
+        "displayName": "PencuriMovie",
+        "badges": ["FAST", "NEW"],
+        "healthScore": 79,
+        "responseTimeMs": 720,
+        "successRatePercent": 84,
+        "note": "Official TetoNova movie-heavy lane for PencuriMovie with live-first parsing and conservative fallback support."
+      }
+    },
+    {
+      "id": "oppadrama-compat",
+      "name": "Oppadrama",
+      "version": "1.0.0",
+      "description": "Official TetoNova drama lane for Oppadrama, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+      "contentTypes": ["MOVIE", "SERIES"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/oppadrama/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/oppadrama-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "drama-compat-v1",
+      "riskFlags": ["ip-domain-shift", "mirror-rotation", "mixed-catalog"],
+      "upstreamUrl": "http://45.11.57.129",
+      "sourceTransparency": {
+        "id": "oppadrama-compat",
+        "displayName": "Oppadrama",
+        "badges": ["NEW", "UNSTABLE"],
+        "healthScore": 74,
+        "responseTimeMs": 760,
+        "successRatePercent": 82,
+        "note": "Official TetoNova drama lane for Oppadrama with live-first parsing and a conservative fallback shelf."
+      }
     }
   ]
 }

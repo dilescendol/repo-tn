@@ -31,6 +31,8 @@ compat/
 - `Donghub`
 - `Kuramanime`
 - `Otakudesu`
+- `Oppadrama`
+- `PencuriMovie`
 - `Samehadaku`
 - `Winbu`
 
