@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "id": "jade-tempest",
+      "title": "Jade Tempest",
+      "tagline": "Official Anichin pilot feed for the first repo-tn wave",
+      "overview": "A martial storm tears through floating provinces while TetoNova exercises its first official repo-hosted compat anime lane.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Action", "Fantasy", "Donghua"],
+      "releaseHint": "New episode Saturday 20:00",
+      "episodeCount": 12,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Official TetoNova pilot source seeded from the repo-tn channel and aligned to anichin.moe."
+    },
+    {
+      "id": "astral-lantern",
+      "title": "Astral Lantern",
+      "tagline": "Weekly fantasy mystery for the repo-tn launch shelf",
+      "overview": "A courier carrying a forbidden lantern crosses fractured realms, giving TetoNova a serialized title for search, detail, and resume testing.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Mystery", "Adventure", "Fantasy"],
+      "releaseHint": "Next chapter Sunday 19:30",
+      "episodeCount": 8,
+      "durationMinutes": 22,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    },
+    {
+      "id": "iron-petal-ova",
+      "title": "Iron Petal OVA",
+      "tagline": "Compact one-shot used for first-party compat playback checks",
+      "overview": "A short experimental OVA used to validate how an official repo-hosted compat source behaves across detail, quick play, and fallback flows.",
+      "contentType": "ANIME",
+      "yearLabel": "2024",
+      "genres": ["OVA", "Sci-Fi"],
+      "releaseHint": "OVA special available now",
+      "episodeCount": 1,
+      "durationMinutes": 46,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID", "EN"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Anichin Official Pilot",
+      "subtitle": "First repo-tn source promoted into the TetoNova official channel.",
+      "itemIds": ["jade-tempest", "astral-lantern", "iron-petal-ova"]
+    },
+    {
+      "title": "Repo-TN Anime Shelf",
+      "subtitle": "Seed content used to verify the official remote repo update path.",
+      "itemIds": ["jade-tempest", "astral-lantern"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Jade Tempest",
+      "releaseDayLabel": "Saturday",
+      "releaseTimeLabel": "20:00",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Astral Lantern",
+      "releaseDayLabel": "Sunday",
+      "releaseTimeLabel": "19:30",
+      "contentType": "ANIME"
+    }
+  ]
+}

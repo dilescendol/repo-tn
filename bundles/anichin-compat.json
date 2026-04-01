@@ -1,0 +1,23 @@
+{
+  "id": "anichin-compat",
+  "name": "Anichin",
+  "version": "1.0.0",
+  "description": "Official TetoNova pilot anime source for anichin.moe. This bundle is the first public seed for repo-tn.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/anichin/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anichin-lite-v1",
+  "riskFlags": ["embed-resolution", "domain-change"],
+  "upstreamUrl": "https://anichin.moe",
+  "sourceTransparency": {
+    "id": "anichin-compat",
+    "displayName": "Anichin",
+    "badges": ["STABLE", "NEW"],
+    "healthScore": 84,
+    "responseTimeMs": 620,
+    "successRatePercent": 89,
+    "note": "Official TetoNova pilot source backed by anichin.moe."
+  }
+}
