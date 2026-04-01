@@ -1,0 +1,23 @@
+{
+  "id": "otakudesu-compat",
+  "name": "Otakudesu",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime source lane for Otakudesu, promoted from the allowlist into the official compatibility wave.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/otakudesu/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change"],
+  "upstreamUrl": "https://otakudesu.cloud",
+  "sourceTransparency": {
+    "id": "otakudesu-compat",
+    "displayName": "Otakudesu",
+    "badges": ["STABLE", "NEW"],
+    "healthScore": 86,
+    "responseTimeMs": 600,
+    "successRatePercent": 91,
+    "note": "Official TetoNova compatibility lane for Otakudesu in wave 1 anime rollout."
+  }
+}

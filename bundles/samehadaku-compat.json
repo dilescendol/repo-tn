@@ -1,0 +1,23 @@
+{
+  "id": "samehadaku-compat",
+  "name": "Samehadaku",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime source lane for Samehadaku, prepared with local fallback shelves before native promotion.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/samehadaku/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["mirror-rotation"],
+  "upstreamUrl": "https://v1.samehadaku.how",
+  "sourceTransparency": {
+    "id": "samehadaku-compat",
+    "displayName": "Samehadaku",
+    "badges": ["STABLE", "NEW"],
+    "healthScore": 83,
+    "responseTimeMs": 650,
+    "successRatePercent": 88,
+    "note": "Official TetoNova compatibility lane for Samehadaku with a safe starter shelf."
+  }
+}

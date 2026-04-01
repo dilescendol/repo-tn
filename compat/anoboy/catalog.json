@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "crimson-relay",
+      "title": "Crimson Relay",
+      "tagline": "Fallback shelf for the official Anoboy lane",
+      "overview": "A synthetic catalog entry shipped with TetoNova so the Anoboy compatibility lane can browse safely while the native migration is still in progress.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Action", "Sci-Fi"],
+      "releaseHint": "New episode Monday 19:00",
+      "episodeCount": 12,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback preview for the Anoboy compatibility lane. Live scraping will replace this shelf when the adapter is promoted."
+    },
+    {
+      "id": "seaside-gear",
+      "title": "Seaside Gear",
+      "tagline": "Mechanical summer arc for quick resume checks",
+      "overview": "A playful mecha surf series used to seed home, detail, and continue-watching flows for the Anoboy starter lane.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Comedy", "Mecha"],
+      "releaseHint": "Next episode Thursday 18:30",
+      "episodeCount": 8,
+      "durationMinutes": 23,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Anoboy Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the Anoboy compatibility lane.",
+      "itemIds": ["crimson-relay", "seaside-gear"]
+    },
+    {
+      "title": "Weekly Picks",
+      "subtitle": "Lightweight anime picks while the native adapter is still cooking.",
+      "itemIds": ["crimson-relay"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Crimson Relay",
+      "releaseDayLabel": "Monday",
+      "releaseTimeLabel": "19:00",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Seaside Gear",
+      "releaseDayLabel": "Thursday",
+      "releaseTimeLabel": "18:30",
+      "contentType": "ANIME"
+    }
+  ]
+}

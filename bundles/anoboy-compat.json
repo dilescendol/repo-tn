@@ -1,0 +1,23 @@
+{
+  "id": "anoboy-compat",
+  "name": "Anoboy",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime source lane for Anoboy, curated as a light compatibility import.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/anoboy/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["mirror-rotation"],
+  "upstreamUrl": "https://anoboy.be",
+  "sourceTransparency": {
+    "id": "anoboy-compat",
+    "displayName": "Anoboy",
+    "badges": ["STABLE", "FAST"],
+    "healthScore": 85,
+    "responseTimeMs": 590,
+    "successRatePercent": 90,
+    "note": "Official TetoNova compatibility lane for Anoboy while native migration is still pending."
+  }
+}

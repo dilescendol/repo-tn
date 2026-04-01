@@ -1,0 +1,23 @@
+{
+  "id": "kuramanime-compat",
+  "name": "Kuramanime",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime source lane for Kuramanime, prepared as a compatibility import with local-safe fallback data.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/kuramanime/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change"],
+  "upstreamUrl": "https://v17.kuramanime.ink",
+  "sourceTransparency": {
+    "id": "kuramanime-compat",
+    "displayName": "Kuramanime",
+    "badges": ["STABLE", "FAST"],
+    "healthScore": 84,
+    "responseTimeMs": 610,
+    "successRatePercent": 89,
+    "note": "Official TetoNova compatibility lane for Kuramanime with conservative fallback browsing."
+  }
+}

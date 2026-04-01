@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "orbit-nocturne",
+      "title": "Orbit Nocturne",
+      "tagline": "Fallback shelf for the official Kuramanime lane",
+      "overview": "A synthetic space-fantasy serial used to keep the Kuramanime compatibility lane browseable before the live adapter ships.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Space", "Fantasy"],
+      "releaseHint": "New episode Tuesday 20:10",
+      "episodeCount": 13,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback preview for the Kuramanime compatibility lane with a local-safe shelf."
+    },
+    {
+      "id": "linen-echo",
+      "title": "Linen Echo",
+      "tagline": "Quiet mystery shelf for relaxed anime discovery",
+      "overview": "A slower mystery title seeded into TetoNova to validate search, detail, and watchlist flows for the Kuramanime lane.",
+      "contentType": "ANIME",
+      "yearLabel": "2024",
+      "genres": ["Mystery", "Slice of Life"],
+      "releaseHint": "Next episode Friday 21:15",
+      "episodeCount": 10,
+      "durationMinutes": 22,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Kuramanime Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the Kuramanime compatibility lane.",
+      "itemIds": ["orbit-nocturne", "linen-echo"]
+    },
+    {
+      "title": "Quiet Finds",
+      "subtitle": "A calmer shelf for late-night anime browsing.",
+      "itemIds": ["linen-echo"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Orbit Nocturne",
+      "releaseDayLabel": "Tuesday",
+      "releaseTimeLabel": "20:10",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Linen Echo",
+      "releaseDayLabel": "Friday",
+      "releaseTimeLabel": "21:15",
+      "contentType": "ANIME"
+    }
+  ]
+}

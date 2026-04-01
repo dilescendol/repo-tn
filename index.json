@@ -26,6 +26,102 @@
         "successRatePercent": 89,
         "note": "Official TetoNova pilot source backed by anichin.moe."
       }
+    },
+    {
+      "id": "anoboy-compat",
+      "name": "Anoboy",
+      "version": "1.0.0",
+      "description": "Official TetoNova anime source lane for Anoboy, curated as a light compatibility import.",
+      "contentTypes": ["ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/anoboy/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/anoboy-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "anime-compat-v1",
+      "riskFlags": ["mirror-rotation"],
+      "upstreamUrl": "https://anoboy.be",
+      "sourceTransparency": {
+        "id": "anoboy-compat",
+        "displayName": "Anoboy",
+        "badges": ["STABLE", "FAST"],
+        "healthScore": 85,
+        "responseTimeMs": 590,
+        "successRatePercent": 90,
+        "note": "Official TetoNova compatibility lane for Anoboy while native migration is still pending."
+      }
+    },
+    {
+      "id": "kuramanime-compat",
+      "name": "Kuramanime",
+      "version": "1.0.0",
+      "description": "Official TetoNova anime source lane for Kuramanime, prepared as a compatibility import with local-safe fallback data.",
+      "contentTypes": ["ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/kuramanime/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/kuramanime-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "anime-compat-v1",
+      "riskFlags": ["domain-change"],
+      "upstreamUrl": "https://v17.kuramanime.ink",
+      "sourceTransparency": {
+        "id": "kuramanime-compat",
+        "displayName": "Kuramanime",
+        "badges": ["STABLE", "FAST"],
+        "healthScore": 84,
+        "responseTimeMs": 610,
+        "successRatePercent": 89,
+        "note": "Official TetoNova compatibility lane for Kuramanime with conservative fallback browsing."
+      }
+    },
+    {
+      "id": "otakudesu-compat",
+      "name": "Otakudesu",
+      "version": "1.0.0",
+      "description": "Official TetoNova anime source lane for Otakudesu, promoted from the allowlist into the official compatibility wave.",
+      "contentTypes": ["ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/otakudesu/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/otakudesu-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "anime-compat-v1",
+      "riskFlags": ["domain-change"],
+      "upstreamUrl": "https://otakudesu.cloud",
+      "sourceTransparency": {
+        "id": "otakudesu-compat",
+        "displayName": "Otakudesu",
+        "badges": ["STABLE", "NEW"],
+        "healthScore": 86,
+        "responseTimeMs": 600,
+        "successRatePercent": 91,
+        "note": "Official TetoNova compatibility lane for Otakudesu in wave 1 anime rollout."
+      }
+    },
+    {
+      "id": "samehadaku-compat",
+      "name": "Samehadaku",
+      "version": "1.0.0",
+      "description": "Official TetoNova anime source lane for Samehadaku, prepared with local fallback shelves before native promotion.",
+      "contentTypes": ["ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/samehadaku/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/samehadaku-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "anime-compat-v1",
+      "riskFlags": ["mirror-rotation"],
+      "upstreamUrl": "https://v1.samehadaku.how",
+      "sourceTransparency": {
+        "id": "samehadaku-compat",
+        "displayName": "Samehadaku",
+        "badges": ["STABLE", "NEW"],
+        "healthScore": 83,
+        "responseTimeMs": 650,
+        "successRatePercent": 88,
+        "note": "Official TetoNova compatibility lane for Samehadaku with a safe starter shelf."
+      }
     }
   ]
 }

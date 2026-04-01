@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "frost-circuit",
+      "title": "Frost Circuit",
+      "tagline": "Fallback shelf for the official Samehadaku lane",
+      "overview": "A synthetic winter-tech anime seeded into TetoNova so the Samehadaku compatibility lane can stay installable and browseable from day one.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Sci-Fi", "Drama"],
+      "releaseHint": "New episode Sunday 19:45",
+      "episodeCount": 11,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback preview for the Samehadaku compatibility lane while the native migration queue catches up."
+    },
+    {
+      "id": "lantern-cascade",
+      "title": "Lantern Cascade",
+      "tagline": "Mystic weekly shelf for home and calendar checks",
+      "overview": "A supernatural weekly title placed in the Samehadaku starter shelf to keep release calendar and follow flows active.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Supernatural", "Adventure"],
+      "releaseHint": "Next episode Friday 20:05",
+      "episodeCount": 7,
+      "durationMinutes": 22,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Samehadaku Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the Samehadaku compatibility lane.",
+      "itemIds": ["frost-circuit", "lantern-cascade"]
+    },
+    {
+      "title": "Fresh Weekly",
+      "subtitle": "Starter weekly anime picks from the Samehadaku lane.",
+      "itemIds": ["lantern-cascade"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Frost Circuit",
+      "releaseDayLabel": "Sunday",
+      "releaseTimeLabel": "19:45",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Lantern Cascade",
+      "releaseDayLabel": "Friday",
+      "releaseTimeLabel": "20:05",
+      "contentType": "ANIME"
+    }
+  ]
+}

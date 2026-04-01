@@ -22,6 +22,14 @@ bundles/
 compat/
 ```
 
+## Current Official Wave
+
+- `Anichin`
+- `Anoboy`
+- `Kuramanime`
+- `Otakudesu`
+- `Samehadaku`
+
 ## Notes
 
 - `index.json` is the primary entrypoint for app-side repo refresh.

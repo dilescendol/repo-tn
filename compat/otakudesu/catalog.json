@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "harbor-spark",
+      "title": "Harbor Spark",
+      "tagline": "Fallback shelf for the official Otakudesu lane",
+      "overview": "A synthetic dockside adventure series shipped as a safe starter shelf while the Otakudesu live adapter is still being promoted.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Adventure", "Fantasy"],
+      "releaseHint": "New episode Wednesday 19:20",
+      "episodeCount": 12,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback preview for the Otakudesu compatibility lane. Native scraping will replace this shelf later."
+    },
+    {
+      "id": "twin-comet",
+      "title": "Twin Comet",
+      "tagline": "Compact action shelf for playback and download checks",
+      "overview": "A fast-moving action title used to keep player, download, and continue-watching flows exercised for the Otakudesu lane.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Action", "Fantasy"],
+      "releaseHint": "Next episode Saturday 20:40",
+      "episodeCount": 9,
+      "durationMinutes": 23,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Otakudesu Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the Otakudesu compatibility lane.",
+      "itemIds": ["harbor-spark", "twin-comet"]
+    },
+    {
+      "title": "Action Lane",
+      "subtitle": "A sharper shelf for quick playback checks.",
+      "itemIds": ["twin-comet"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Harbor Spark",
+      "releaseDayLabel": "Wednesday",
+      "releaseTimeLabel": "19:20",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Twin Comet",
+      "releaseDayLabel": "Saturday",
+      "releaseTimeLabel": "20:40",
+      "contentType": "ANIME"
+    }
+  ]
+}
