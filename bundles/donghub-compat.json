@@ -1,0 +1,23 @@
+{
+  "id": "donghub-compat",
+  "name": "Donghub",
+  "version": "1.0.0",
+  "description": "Official TetoNova donghua hub lane for Donghub, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+  "contentTypes": ["ANIME", "MOVIE"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/donghub/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "donghua-compat-v1",
+  "riskFlags": ["search-throttle", "player-variation"],
+  "upstreamUrl": "https://donghub.vip",
+  "sourceTransparency": {
+    "id": "donghub-compat",
+    "displayName": "Donghub",
+    "badges": ["FAST", "NEW"],
+    "healthScore": 80,
+    "responseTimeMs": 670,
+    "successRatePercent": 86,
+    "note": "Official TetoNova donghua hub lane for Donghub with live-first parsing and a conservative fallback shelf."
+  }
+}

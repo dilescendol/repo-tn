@@ -27,6 +27,7 @@ compat/
 - `Anichin`
 - `Anixverse`
 - `Anoboy`
+- `Donghub`
 - `Kuramanime`
 - `Otakudesu`
 - `Samehadaku`
