@@ -10,7 +10,7 @@
   "originLabel": "TetoNova Official",
   "compatLayer": "anime-compat-v1",
   "riskFlags": ["domain-change"],
-  "upstreamUrl": "https://otakudesu.cloud",
+  "upstreamUrl": "https://otakudesu.blog",
   "sourceTransparency": {
     "id": "otakudesu-compat",
     "displayName": "Otakudesu",
