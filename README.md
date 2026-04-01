@@ -25,6 +25,7 @@ compat/
 ## Current Official Wave
 
 - `Anichin`
+- `Anixverse`
 - `Anoboy`
 - `Kuramanime`
 - `Otakudesu`

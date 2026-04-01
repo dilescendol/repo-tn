@@ -122,6 +122,30 @@
         "successRatePercent": 88,
         "note": "Official TetoNova compatibility lane for Samehadaku with a safe starter shelf."
       }
+    },
+    {
+      "id": "anixverse-compat",
+      "name": "Anixverse",
+      "version": "1.0.0",
+      "description": "Official TetoNova donghua lane for Anixverse, prepared as a lightweight compatibility import with live parsing and a safe starter shelf.",
+      "contentTypes": ["ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/anixverse/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/anixverse-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "donghua-compat-v1",
+      "riskFlags": ["player-variation", "domain-change"],
+      "upstreamUrl": "https://anixverseone.com",
+      "sourceTransparency": {
+        "id": "anixverse-compat",
+        "displayName": "Anixverse",
+        "badges": ["STABLE", "NEW"],
+        "healthScore": 82,
+        "responseTimeMs": 640,
+        "successRatePercent": 88,
+        "note": "Official TetoNova donghua lane for Anixverse with live-first parsing and fallback support."
+      }
     }
   ]
 }
