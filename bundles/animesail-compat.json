@@ -1,0 +1,23 @@
+{
+  "id": "animesail-compat",
+  "name": "AnimeSail",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime lane for AnimeSail, prepared with a guarded live adapter and a fallback shelf for challenge-heavy periods.",
+  "contentTypes": ["ANIME", "MOVIE"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/animesail/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-guarded-v1",
+  "riskFlags": ["turnstile-gate", "ip-domain-shift", "certificate-mismatch"],
+  "upstreamUrl": "https://154.26.137.28",
+  "sourceTransparency": {
+    "id": "animesail-compat",
+    "displayName": "AnimeSail",
+    "badges": ["UNSTABLE", "NEW"],
+    "healthScore": 63,
+    "responseTimeMs": 980,
+    "successRatePercent": 71,
+    "note": "Official TetoNova AnimeSail lane with guarded live parsing and local-safe fallback support."
+  }
+}

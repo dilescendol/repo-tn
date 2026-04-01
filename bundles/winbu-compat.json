@@ -1,0 +1,23 @@
+{
+  "id": "winbu-compat",
+  "name": "Winbu",
+  "version": "1.0.0",
+  "description": "Official TetoNova mixed catalog lane for Winbu, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+  "contentTypes": ["MOVIE", "SERIES", "ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/winbu/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "mixed-compat-v1",
+  "riskFlags": ["ajax-player", "mixed-catalog"],
+  "upstreamUrl": "https://winbu.net",
+  "sourceTransparency": {
+    "id": "winbu-compat",
+    "displayName": "Winbu",
+    "badges": ["FAST", "NEW"],
+    "healthScore": 81,
+    "responseTimeMs": 690,
+    "successRatePercent": 87,
+    "note": "Official TetoNova mixed lane for Winbu with live-first parsing and conservative fallback support."
+  }
+}

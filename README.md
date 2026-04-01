@@ -26,11 +26,13 @@ compat/
 
 - `Anichin`
 - `Anixverse`
+- `AnimeSail`
 - `Anoboy`
 - `Donghub`
 - `Kuramanime`
 - `Otakudesu`
 - `Samehadaku`
+- `Winbu`
 
 ## Notes
 

@@ -4,6 +4,30 @@
   "repoUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/index.json",
   "extensions": [
     {
+      "id": "animesail-compat",
+      "name": "AnimeSail",
+      "version": "1.0.0",
+      "description": "Official TetoNova anime lane for AnimeSail, prepared with a guarded live adapter and a fallback shelf for challenge-heavy periods.",
+      "contentTypes": ["ANIME", "MOVIE"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/animesail/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/animesail-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "anime-guarded-v1",
+      "riskFlags": ["turnstile-gate", "ip-domain-shift", "certificate-mismatch"],
+      "upstreamUrl": "https://154.26.137.28",
+      "sourceTransparency": {
+        "id": "animesail-compat",
+        "displayName": "AnimeSail",
+        "badges": ["UNSTABLE", "NEW"],
+        "healthScore": 63,
+        "responseTimeMs": 980,
+        "successRatePercent": 71,
+        "note": "Official TetoNova AnimeSail lane with guarded live parsing and local-safe fallback support."
+      }
+    },
+    {
       "id": "anichin-compat",
       "name": "Anichin",
       "version": "1.0.0",
@@ -169,6 +193,30 @@
         "responseTimeMs": 670,
         "successRatePercent": 86,
         "note": "Official TetoNova donghua hub lane for Donghub with live-first parsing and a conservative fallback shelf."
+      }
+    },
+    {
+      "id": "winbu-compat",
+      "name": "Winbu",
+      "version": "1.0.0",
+      "description": "Official TetoNova mixed catalog lane for Winbu, prepared as a lightweight compatibility import with live parsing and a safe fallback shelf.",
+      "contentTypes": ["MOVIE", "SERIES", "ANIME"],
+      "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+      "entry": "compat/winbu/catalog.json",
+      "bundleUrl": "https://raw.githubusercontent.com/dilescendol/repo-tn/main/bundles/winbu-compat.json",
+      "tier": "COMPAT_IMPORTED",
+      "originLabel": "TetoNova Official",
+      "compatLayer": "mixed-compat-v1",
+      "riskFlags": ["ajax-player", "mixed-catalog"],
+      "upstreamUrl": "https://winbu.net",
+      "sourceTransparency": {
+        "id": "winbu-compat",
+        "displayName": "Winbu",
+        "badges": ["FAST", "NEW"],
+        "healthScore": 81,
+        "responseTimeMs": 690,
+        "successRatePercent": 87,
+        "note": "Official TetoNova mixed lane for Winbu with live-first parsing and conservative fallback support."
       }
     }
   ]

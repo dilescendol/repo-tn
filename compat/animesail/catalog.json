@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "saffron-eclipse",
+      "title": "Saffron Eclipse",
+      "tagline": "Starter anime shelf for the official AnimeSail lane",
+      "overview": "A synthetic fantasy-action anime seeded into TetoNova so the AnimeSail lane stays browseable while the guarded source passes verification.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Anime", "Fantasy", "Action"],
+      "releaseHint": "New episode Sunday 20:15",
+      "episodeCount": 13,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback shelf for the official AnimeSail lane. Live parsing will replace these items only when the source verification gate is reachable."
+    },
+    {
+      "id": "jade-harbor-wars",
+      "title": "Jade Harbor Wars",
+      "tagline": "Donghua fallback tile for AnimeSail's guarded source",
+      "overview": "A synthetic donghua title used by TetoNova to validate source transparency and continue-watching flows for AnimeSail.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Donghua", "Adventure", "Action"],
+      "releaseHint": "Next episode Wednesday 20:00",
+      "episodeCount": 8,
+      "durationMinutes": 23,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    },
+    {
+      "id": "sky-archive-movie",
+      "title": "Sky Archive Movie",
+      "tagline": "Movie fallback tile for challenge-heavy periods",
+      "overview": "A synthetic movie entry included so TetoNova can keep AnimeSail representative even when challenge validation blocks live hydration.",
+      "contentType": "MOVIE",
+      "yearLabel": "2024",
+      "genres": ["Movie", "Fantasy", "Adventure"],
+      "releaseHint": "Movie page ready",
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "AnimeSail Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the AnimeSail guarded lane.",
+      "itemIds": ["saffron-eclipse", "jade-harbor-wars", "sky-archive-movie"]
+    },
+    {
+      "title": "Anime Lane",
+      "subtitle": "Starter shelf for anime and donghua browsing.",
+      "itemIds": ["saffron-eclipse", "jade-harbor-wars"]
+    },
+    {
+      "title": "Movie Shelf",
+      "subtitle": "Fallback movie tile while source verification is unavailable.",
+      "itemIds": ["sky-archive-movie"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Saffron Eclipse",
+      "releaseDayLabel": "Sunday",
+      "releaseTimeLabel": "20:15",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Jade Harbor Wars",
+      "releaseDayLabel": "Wednesday",
+      "releaseTimeLabel": "20:00",
+      "contentType": "ANIME"
+    }
+  ]
+}
