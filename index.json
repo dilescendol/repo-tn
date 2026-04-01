@@ -112,7 +112,7 @@
       "originLabel": "TetoNova Official",
       "compatLayer": "anime-compat-v1",
       "riskFlags": ["mirror-rotation"],
-      "upstreamUrl": "https://v1.samehadaku.how",
+      "upstreamUrl": "https://v2.samehadaku.how",
       "sourceTransparency": {
         "id": "samehadaku-compat",
         "displayName": "Samehadaku",
