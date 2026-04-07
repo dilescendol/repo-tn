@@ -30,6 +30,10 @@ compat/
 - `Anoboy`
 - `Donghub`
 - `Kuramanime`
+- `Hidoristream`
+- `Animasu`
+- `NontonAnimeID`
+- `Oploverz`
 - `Otakudesu`
 - `Oppadrama`
 - `PencuriMovie`

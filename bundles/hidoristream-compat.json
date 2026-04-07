@@ -1,0 +1,23 @@
+{
+  "id": "hidoristream-compat",
+  "name": "Hidoristream",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime lane for Hidoristream, prepared as a lightweight compatibility import with a safe fallback shelf.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/hidoristream/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change", "mirror-rotation"],
+  "upstreamUrl": "https://v2.hidoristream.online",
+  "sourceTransparency": {
+    "id": "hidoristream-compat",
+    "displayName": "Hidoristream",
+    "badges": ["NEW", "FAST"],
+    "healthScore": 80,
+    "responseTimeMs": 700,
+    "successRatePercent": 86,
+    "note": "Official TetoNova compatibility lane for Hidoristream with a lightweight fallback shelf while live parsing is still pending."
+  }
+}

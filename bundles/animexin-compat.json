@@ -1,0 +1,23 @@
+{
+  "id": "animexin-compat",
+  "name": "AnimeXin",
+  "version": "1.0.0",
+  "description": "Official TetoNova donghua lane for AnimeXin, prepared as a lightweight compatibility import with milestone episode seeding and live parsing.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/animexin/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "donghua-milestone-v1",
+  "riskFlags": ["player-variation", "milestone-episode-depth", "domain-change"],
+  "upstreamUrl": "https://animexin.dev",
+  "sourceTransparency": {
+    "id": "animexin-compat",
+    "displayName": "AnimeXin",
+    "badges": ["NEW", "STABLE"],
+    "healthScore": 81,
+    "responseTimeMs": 710,
+    "successRatePercent": 86,
+    "note": "Official TetoNova donghua lane for AnimeXin with milestone scraping support and live-first playback hydration."
+  }
+}

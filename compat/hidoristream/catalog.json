@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "glass-comet",
+      "title": "Glass Comet",
+      "tagline": "Fallback shelf for the official Hidoristream lane",
+      "overview": "A synthetic catalog entry shipped with TetoNova so the Hidoristream compatibility lane can browse safely while the live parser is still pending.",
+      "contentType": "ANIME",
+      "yearLabel": "2026",
+      "genres": ["Action", "Fantasy"],
+      "releaseHint": "Update Sabtu 20:00",
+      "episodeCount": 12,
+      "durationMinutes": 24,
+      "qualities": ["480p", "720p", "1080p"],
+      "subtitleLanguages": ["ID", "EN"],
+      "sourceNote": "Fallback preview for the Hidoristream compatibility lane. Live parsing will replace this shelf when the adapter is promoted."
+    },
+    {
+      "id": "neon-orchard",
+      "title": "Neon Orchard",
+      "tagline": "Starter catalog for browse and resume checks",
+      "overview": "A colorful sci-fi school title used to seed home, detail, and continue-watching flows for the Hidoristream starter lane.",
+      "contentType": "ANIME",
+      "yearLabel": "2025",
+      "genres": ["Sci-Fi", "School"],
+      "releaseHint": "Episode baru Rabu 18:30",
+      "episodeCount": 10,
+      "durationMinutes": 23,
+      "qualities": ["480p", "720p"],
+      "subtitleLanguages": ["ID"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Hidoristream Pilot",
+      "subtitle": "Official TetoNova fallback shelf for the Hidoristream compatibility lane.",
+      "itemIds": ["glass-comet", "neon-orchard"]
+    },
+    {
+      "title": "Fresh Weekly Anime",
+      "subtitle": "Lightweight anime picks while the live parser is still cooking.",
+      "itemIds": ["glass-comet"]
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Glass Comet",
+      "releaseDayLabel": "Saturday",
+      "releaseTimeLabel": "20:00",
+      "contentType": "ANIME"
+    },
+    {
+      "title": "Neon Orchard",
+      "releaseDayLabel": "Wednesday",
+      "releaseTimeLabel": "18:30",
+      "contentType": "ANIME"
+    }
+  ]
+}

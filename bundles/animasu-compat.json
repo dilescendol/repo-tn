@@ -1,0 +1,23 @@
+{
+  "id": "animasu-compat",
+  "name": "Animasu",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime lane for Animasu, prepared as a lightweight compatibility import with a safe fallback shelf.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/animasu/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change", "mirror-rotation"],
+  "upstreamUrl": "https://v1.animasu.app",
+  "sourceTransparency": {
+    "id": "animasu-compat",
+    "displayName": "Animasu",
+    "badges": ["NEW", "STABLE"],
+    "healthScore": 81,
+    "responseTimeMs": 680,
+    "successRatePercent": 87,
+    "note": "Official TetoNova compatibility lane for Animasu with live home/search/detail parsing on the current v1.animasu.app source."
+  }
+}

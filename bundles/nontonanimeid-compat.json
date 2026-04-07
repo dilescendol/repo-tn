@@ -1,0 +1,23 @@
+{
+  "id": "nontonanimeid-compat",
+  "name": "NontonAnimeID",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime lane for NontonAnimeID, prepared as a lightweight compatibility import with a safe fallback shelf.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/nontonanimeid/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change", "mirror-rotation"],
+  "upstreamUrl": "https://s11.nontonanimeid.boats",
+  "sourceTransparency": {
+    "id": "nontonanimeid-compat",
+    "displayName": "NontonAnimeID",
+    "badges": ["NEW", "STABLE"],
+    "healthScore": 82,
+    "responseTimeMs": 670,
+    "successRatePercent": 88,
+    "note": "Official TetoNova compatibility lane for NontonAnimeID with a lightweight fallback shelf while live parsing is still pending."
+  }
+}

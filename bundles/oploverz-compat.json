@@ -1,0 +1,23 @@
+{
+  "id": "oploverz-compat",
+  "name": "Oploverz",
+  "version": "1.0.0",
+  "description": "Official TetoNova anime lane for Oploverz, prepared as a lightweight compatibility import with a safe fallback shelf.",
+  "contentTypes": ["ANIME"],
+  "capabilities": ["HOME", "SEARCH", "DETAIL", "PLAYBACK", "SUBTITLES"],
+  "entry": "compat/oploverz/catalog.json",
+  "tier": "COMPAT_IMPORTED",
+  "originLabel": "TetoNova Official",
+  "compatLayer": "anime-compat-v1",
+  "riskFlags": ["domain-change", "mirror-rotation"],
+  "upstreamUrl": "https://anime.oploverz.ac",
+  "sourceTransparency": {
+    "id": "oploverz-compat",
+    "displayName": "Oploverz",
+    "badges": ["NEW", "STABLE"],
+    "healthScore": 82,
+    "responseTimeMs": 670,
+    "successRatePercent": 88,
+    "note": "Official TetoNova compatibility lane for Oploverz with a lightweight fallback shelf while live parsing is still pending."
+  }
+}
