@@ -25,17 +25,16 @@ compat/
 ## Current Official Wave
 
 <!-- official-wave:start -->
-_Auto-generated on 09 Apr 2026 13:25 UTC_
+_Auto-generated on 09 Apr 2026 16:16 UTC_
 
 | Active | Guarded | Thin | Dead/Error |
 | --- | --- | --- | --- |
-| **2** | **8** | **0** | **0** |
+| **2** | **7** | **0** | **0** |
 
 | Source | Web status | HTTP | Probe |
 | --- | --- | --- | --- |
 | Oploverz | 🟢 Active | 200 | [Open](https://anime.oploverz.ac/) |
 | Oppadrama | 🟢 Active | 200 | [Open](http://45.11.57.129/series/?status=&type=&order=update) |
-| AnimeSail | 🟡 Guarded | 200 | [Open](https://154.26.137.28/rilisan-anime-terbaru/page/) |
 | AnimeXin | 🟡 Guarded | 200 | [Open](https://animexin.dev/anime/?order=update&status=&type=) |
 | Anixverse | 🟡 Guarded | 200 | [Open](https://anixverseone.com/anime/?order=update) |
 | Anoboy | 🟡 Guarded | 200 | [Open](https://ww1.anoboy.boo/) |
@@ -49,6 +48,7 @@ _Auto-generated on 09 Apr 2026 13:25 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) |
+| AnimeSail | 🟠 Slow | - | [Open](https://154.26.137.28/rilisan-anime-terbaru/page/) |
 
 Detail report: [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md)
 <!-- official-wave:end -->

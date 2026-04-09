@@ -1,9 +1,9 @@
 # Source Web Status
 
-_Generated automatically on 09 Apr 2026 13:25 UTC_
+_Generated automatically on 09 Apr 2026 16:16 UTC_
 
 - Active: **2**
-- Guarded: **8**
+- Guarded: **7**
 - Thin/partial: **0**
 - Dead or error: **0**
 
@@ -11,7 +11,6 @@ _Generated automatically on 09 Apr 2026 13:25 UTC_
 | --- | --- | --- | --- | --- |
 | Oploverz | 🟢 Active | 200 | [Open](https://anime.oploverz.ac/) | Probe returned a normal HTML response. |
 | Oppadrama | 🟢 Active | 200 | [Open](http://45.11.57.129/series/?status=&type=&order=update) | Probe returned a normal HTML response. |
-| AnimeSail | 🟡 Guarded | 200 | [Open](https://154.26.137.28/rilisan-anime-terbaru/page/) | Upstream is behind a gate or anti-bot challenge. |
 | AnimeXin | 🟡 Guarded | 200 | [Open](https://animexin.dev/anime/?order=update&status=&type=) | Upstream is behind a gate or anti-bot challenge. |
 | Anixverse | 🟡 Guarded | 200 | [Open](https://anixverseone.com/anime/?order=update) | Upstream is behind a gate or anti-bot challenge. |
 | Anoboy | 🟡 Guarded | 200 | [Open](https://ww1.anoboy.boo/) | Upstream is behind a gate or anti-bot challenge. |
@@ -25,3 +24,4 @@ _Generated automatically on 09 Apr 2026 13:25 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) | Upstream answered but access is restricted. |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) | Upstream answered but access is restricted. |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) | Upstream answered but access is restricted. |
+| AnimeSail | 🟠 Slow | - | [Open](https://154.26.137.28/rilisan-anime-terbaru/page/) | Probe timed out before the page responded. |
