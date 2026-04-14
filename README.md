@@ -25,15 +25,14 @@ compat/
 ## Current Official Wave
 
 <!-- official-wave:start -->
-_Auto-generated on 13 Apr 2026 21:47 UTC_
+_Auto-generated on 14 Apr 2026 02:27 UTC_
 
 | Active | Guarded | Thin | Dead/Error |
 | --- | --- | --- | --- |
-| **2** | **8** | **0** | **0** |
+| **1** | **8** | **0** | **1** |
 
 | Source | Web status | HTTP | Probe |
 | --- | --- | --- | --- |
-| Oploverz | 🟢 Active | 200 | [Open](https://anime.oploverz.ac/) |
 | Oppadrama | 🟢 Active | 200 | [Open](http://45.11.57.129/series/?status=&type=&order=update) |
 | AnimeSail | 🟡 Guarded | 200 | [Open](https://154.26.137.28/rilisan-anime-terbaru/page/) |
 | AnimeXin | 🟡 Guarded | 200 | [Open](https://animexin.dev/anime/?order=update&status=&type=) |
@@ -49,6 +48,7 @@ _Auto-generated on 13 Apr 2026 21:47 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) |
+| Oploverz | 🔴 Error | 502 | [Open](https://anime.oploverz.ac/) |
 
 Detail report: [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md)
 <!-- official-wave:end -->
