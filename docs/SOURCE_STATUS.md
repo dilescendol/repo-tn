@@ -1,9 +1,9 @@
 # Source Web Status
 
-_Generated automatically on 14 Apr 2026 21:50 UTC_
+_Generated automatically on 15 Apr 2026 02:25 UTC_
 
 - Active: **2**
-- Guarded: **8**
+- Guarded: **7**
 - Thin/partial: **0**
 - Dead or error: **0**
 
@@ -17,7 +17,6 @@ _Generated automatically on 14 Apr 2026 21:50 UTC_
 | Anoboy | 🟡 Guarded | 200 | [Open](https://ww1.anoboy.boo/) | Upstream is behind a gate or anti-bot challenge. |
 | Donghub | 🟡 Guarded | 200 | [Open](https://donghub.vip/anime/?order=update) | Upstream is behind a gate or anti-bot challenge. |
 | Hidoristream | 🟡 Guarded | 200 | [Open](https://v2.hidoristream.online/) | Upstream is behind a gate or anti-bot challenge. |
-| PencuriMovie | 🟡 Guarded | 200 | [Open](https://ww99.pencurimovie.bond/movies) | Upstream is behind a gate or anti-bot challenge. |
 | Winbu | 🟡 Guarded | 200 | [Open](https://winbu.net/film/) | Upstream is behind a gate or anti-bot challenge. |
 | Anichin | 🟠 Blocked | 403 | [Open](https://anichin.moe/anime/?order=update) | Upstream answered but access is restricted. |
 | Animasu | 🟠 Blocked | 403 | [Open](https://v1.animasu.app/anime-sedang-tayang-terbaru/) | Upstream answered but access is restricted. |
@@ -25,3 +24,4 @@ _Generated automatically on 14 Apr 2026 21:50 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) | Upstream answered but access is restricted. |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) | Upstream answered but access is restricted. |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) | Upstream answered but access is restricted. |
+| PencuriMovie | 🟠 Slow | - | [Open](https://ww99.pencurimovie.bond/movies) | Probe timed out before the page responded. |

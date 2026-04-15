@@ -25,11 +25,11 @@ compat/
 ## Current Official Wave
 
 <!-- official-wave:start -->
-_Auto-generated on 14 Apr 2026 21:50 UTC_
+_Auto-generated on 15 Apr 2026 02:25 UTC_
 
 | Active | Guarded | Thin | Dead/Error |
 | --- | --- | --- | --- |
-| **2** | **8** | **0** | **0** |
+| **2** | **7** | **0** | **0** |
 
 | Source | Web status | HTTP | Probe |
 | --- | --- | --- | --- |
@@ -41,7 +41,6 @@ _Auto-generated on 14 Apr 2026 21:50 UTC_
 | Anoboy | 🟡 Guarded | 200 | [Open](https://ww1.anoboy.boo/) |
 | Donghub | 🟡 Guarded | 200 | [Open](https://donghub.vip/anime/?order=update) |
 | Hidoristream | 🟡 Guarded | 200 | [Open](https://v2.hidoristream.online/) |
-| PencuriMovie | 🟡 Guarded | 200 | [Open](https://ww99.pencurimovie.bond/movies) |
 | Winbu | 🟡 Guarded | 200 | [Open](https://winbu.net/film/) |
 | Anichin | 🟠 Blocked | 403 | [Open](https://anichin.moe/anime/?order=update) |
 | Animasu | 🟠 Blocked | 403 | [Open](https://v1.animasu.app/anime-sedang-tayang-terbaru/) |
@@ -49,6 +48,7 @@ _Auto-generated on 14 Apr 2026 21:50 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) |
+| PencuriMovie | 🟠 Slow | - | [Open](https://ww99.pencurimovie.bond/movies) |
 
 Detail report: [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md)
 <!-- official-wave:end -->
