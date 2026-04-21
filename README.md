@@ -25,7 +25,7 @@ compat/
 ## Current Official Wave
 
 <!-- official-wave:start -->
-_Auto-generated on 20 Apr 2026 21:44 UTC_
+_Auto-generated on 21 Apr 2026 02:29 UTC_
 
 | Active | Guarded | Thin | Dead/Error |
 | --- | --- | --- | --- |
