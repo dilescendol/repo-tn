@@ -25,11 +25,11 @@ compat/
 ## Current Official Wave
 
 <!-- official-wave:start -->
-_Auto-generated on 22 Apr 2026 13:24 UTC_
+_Auto-generated on 22 Apr 2026 16:08 UTC_
 
 | Active | Guarded | Thin | Dead/Error |
 | --- | --- | --- | --- |
-| **2** | **8** | **0** | **0** |
+| **2** | **7** | **0** | **0** |
 
 | Source | Web status | HTTP | Probe |
 | --- | --- | --- | --- |
@@ -40,7 +40,6 @@ _Auto-generated on 22 Apr 2026 13:24 UTC_
 | Anixverse | 🟡 Guarded | 200 | [Open](https://anixverseone.com/anime/?order=update) |
 | Anoboy | 🟡 Guarded | 200 | [Open](https://ww1.anoboy.boo/) |
 | Donghub | 🟡 Guarded | 200 | [Open](https://donghub.vip/anime/?order=update) |
-| Hidoristream | 🟡 Guarded | 200 | [Open](https://v2.hidoristream.online/) |
 | PencuriMovie | 🟡 Guarded | 200 | [Open](https://ww99.pencurimovie.bond/movies) |
 | Winbu | 🟡 Guarded | 200 | [Open](https://winbu.net/film/) |
 | Anichin | 🟠 Blocked | 403 | [Open](https://anichin.moe/anime/?order=update) |
@@ -49,6 +48,7 @@ _Auto-generated on 22 Apr 2026 13:24 UTC_
 | NontonAnimeID | 🟠 Blocked | 403 | [Open](https://s11.nontonanimeid.boats/) |
 | Otakudesu | 🟠 Blocked | 403 | [Open](https://otakudesu.blog/ongoing-anime/page/1/) |
 | Samehadaku | 🟠 Blocked | 403 | [Open](https://v2.samehadaku.how/) |
+| Hidoristream | 🟠 Slow | - | [Open](https://v2.hidoristream.online/) |
 
 Detail report: [`docs/SOURCE_STATUS.md`](docs/SOURCE_STATUS.md)
 <!-- official-wave:end -->
